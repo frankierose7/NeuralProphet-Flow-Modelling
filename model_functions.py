@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from neuralprophet import NeuralProphet
 
 from definitions import (locations, completeness_codes)
-from functions import (get_flow_data, get_rainfall_data,
+from eda_functions import (get_flow_data, get_rainfall_data,
                        resample_flow_hr, resample_rf_hr)
 
 
