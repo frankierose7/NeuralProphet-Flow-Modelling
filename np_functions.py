@@ -9,10 +9,10 @@ from functions import (get_flow_data, get_rainfall_data,
 
 
 
-def load_data():
+def load_data(location):
 
     # load flow data for Adelphi Weir
-    adelphi = get_flow_data('Adelphi-Weir')
+    adelphi = get_flow_data(location)
 
     # load rainfall data for locations in the Irwell catchment
     rainfall_data = get_rainfall_data(locations)
