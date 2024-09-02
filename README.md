@@ -9,7 +9,7 @@ The datasets used for analysis were:
 - River Flow: Adelphi Weir
 - Rainfall: Bacup, Blackstone Edge No 2, Bury, Cowm, Holden Wood, Kitcliffe, Loveclough, Ringley, Sweetloves
   
-These datasets are stored in _.csv_ format, eg. `Adelphi-Weir-Upstream-Flow-15min-Qualified.csv`, and are generally around 200MB in size.
+These datasets are stored in _.csv_ format, eg. `Adelphi-Weir-Upstream-flow-15min-Qualified.csv` and `Bacup-rainfall-15min-Qualified.csv` and are generally around 200MB in size.
 
 ### 1. Exploratory Data Analysis
 Exploratory data analysis on the flow and rainfall datasets is found in `eda.ipynb`.
