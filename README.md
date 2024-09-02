@@ -9,23 +9,23 @@ The datasets used for analysis were:
 - River Flow: Adelphi Weir
 - Rainfall: Bacup, Blackstone Edge No 2, Bury, Cowm, Holden Wood, Kitcliffe, Loveclough, Ringley, Sweetloves
   
-These datasets are stored in _.csv_ format, eg. 'Adelphi-Weir-Upstream-Flow-15min-Qualified.csv', and are generally around 200MB in size.
+These datasets are stored in _.csv_ format, eg. `Adelphi-Weir-Upstream-Flow-15min-Qualified.csv`, and are generally around 200MB in size.
 
 ### 1. Exploratory Data Analysis
-Exploratory data analysis on the flow and rainfall datasets is found in 'eda.ipynb'.
+Exploratory data analysis on the flow and rainfall datasets is found in `eda.ipynb`.
 
-Uses 'eda_functions.py' which contains functions for loading the data and generating graphs, and 'definitions.py' which contains definitions for rain gauge locations and data quality codes'
+Uses `eda_functions.py` which contains functions for loading the data and generating graphs, and `definitions.py` which contains definitions for rain gauge locations and data quality codes'
 
 ### 2. ARIMA and ARDL Models
-ARIMA and ARDL models are found in 'arima_ardl.ipynb'.
+ARIMA and ARDL models are found in `arima_ardl.ipynb`.
 
-Uses 'model_functions.py' to load data.
+Uses `model_functions.py` to load data.
 
 ### 3. NeuralProphet model
-The NeuralProphet model is found in 'nprophet.ipynb'.
+The NeuralProphet model is found in `nprophet.ipynb`.
 The optimised parameters for each horizon (1 hour, 3 hours and 6 hours) can be loaded from the three provided _.json_ files.
 
-Uses 'model_functions.py' to load data and set up the model.
+Uses `model_functions.py` to load data and set up the model.
 
 ### 4. Optimisation
-The 'nprophet_auto.py' script optimises the NeuralProphet model with the _hyperopt_ package. By default, it runs 75 iterations which takes around 5 hours. The result _.json_ files given are results of previous optimisations with this script.
+The `nprophet_auto.py` script optimises the NeuralProphet model with the _hyperopt_ package. By default, it runs 75 iterations which takes around 5 hours. The result _.json_ files given are results of previous optimisations with this script.
