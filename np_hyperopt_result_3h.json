@@ -1,0 +1,100 @@
+{
+    "best": {
+        "ar_layer_num": 4.0,
+        "ar_layer_size": 94.0,
+        "ar_n_lags": 6.0,
+        "ar_reg": 0.882548044827063,
+        "reg_layer_num": 3.0,
+        "reg_layer_size": 53.0,
+        "reg_n_lags": 377.0,
+        "reg_reg": 1.3974988601897937,
+        "yearly_seasonality": 0
+    },
+    "trials": [
+        {
+            "state": 2,
+            "tid": 0,
+            "spec": null,
+            "result": {
+                "loss": 0.04398974306099013,
+                "nse_vals": [
+                    0.9962565873864907,
+                    0.9803745197048278,
+                    0.9560102569390099
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 0,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        0
+                    ],
+                    "ar_layer_size": [
+                        0
+                    ],
+                    "ar_n_lags": [
+                        0
+                    ],
+                    "ar_reg": [
+                        0
+                    ],
+                    "reg_layer_num": [
+                        0
+                    ],
+                    "reg_layer_size": [
+                        0
+                    ],
+                    "reg_n_lags": [
+                        0
+                    ],
+                    "reg_reg": [
+                        0
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        94.0
+                    ],
+                    "ar_n_lags": [
+                        6.0
+                    ],
+                    "ar_reg": [
+                        0.882548044827063
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        53.0
+                    ],
+                    "reg_n_lags": [
+                        377.0
+                    ],
+                    "reg_reg": [
+                        1.3974988601897937
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-30T22:53:58.411000",
+            "refresh_time": "2024-08-30T22:56:53.618000"
+        }
+    ]
+}

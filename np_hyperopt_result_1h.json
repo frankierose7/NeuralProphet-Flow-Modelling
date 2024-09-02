@@ -1,0 +1,4415 @@
+{
+    "best": {
+        "ar_layer_num": 3.0,
+        "ar_layer_size": 27.0,
+        "ar_n_lags": 5.0,
+        "ar_reg": 1.7229492793405146,
+        "reg_layer_num": 4.0,
+        "reg_layer_size": 69.0,
+        "reg_n_lags": 35.0,
+        "reg_reg": 0.5521539833588949,
+        "yearly_seasonality": 1
+    },
+    "trials": [
+        {
+            "state": 2,
+            "tid": 0,
+            "spec": null,
+            "result": {
+                "loss": 0.010092495213195773,
+                "nse_vals": [
+                    0.9899075047868042,
+                    0.970254410654649,
+                    0.9429817488861366,
+                    0.9136078038295271,
+                    0.8788616118915566,
+                    0.8256138771639012
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 0,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        0
+                    ],
+                    "ar_layer_size": [
+                        0
+                    ],
+                    "ar_n_lags": [
+                        0
+                    ],
+                    "ar_reg": [
+                        0
+                    ],
+                    "reg_layer_num": [
+                        0
+                    ],
+                    "reg_layer_size": [
+                        0
+                    ],
+                    "reg_n_lags": [
+                        0
+                    ],
+                    "reg_reg": [
+                        0
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        93.0
+                    ],
+                    "ar_n_lags": [
+                        551.0
+                    ],
+                    "ar_reg": [
+                        2.264859728819364
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        32.0
+                    ],
+                    "reg_n_lags": [
+                        712.0
+                    ],
+                    "reg_reg": [
+                        1.2473920304462995
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T11:20:17.361000",
+            "refresh_time": "2024-08-15T11:23:31.257000"
+        },
+        {
+            "state": 2,
+            "tid": 1,
+            "spec": null,
+            "result": {
+                "loss": 36.55814892476376,
+                "nse_vals": [
+                    -35.55814892476376,
+                    -35.55814892476376,
+                    -35.55814892476376,
+                    -35.55814892476376,
+                    -35.55814892476376,
+                    -35.55814892476376
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 1,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        1
+                    ],
+                    "ar_layer_size": [
+                        1
+                    ],
+                    "ar_n_lags": [
+                        1
+                    ],
+                    "ar_reg": [
+                        1
+                    ],
+                    "reg_layer_num": [
+                        1
+                    ],
+                    "reg_layer_size": [
+                        1
+                    ],
+                    "reg_n_lags": [
+                        1
+                    ],
+                    "reg_reg": [
+                        1
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        74.0
+                    ],
+                    "ar_n_lags": [
+                        445.0
+                    ],
+                    "ar_reg": [
+                        3.775722542037656
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        99.0
+                    ],
+                    "reg_n_lags": [
+                        649.0
+                    ],
+                    "reg_reg": [
+                        0.7688038325586708
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T11:23:31.266000",
+            "refresh_time": "2024-08-15T11:34:07.555000"
+        },
+        {
+            "state": 2,
+            "tid": 2,
+            "spec": null,
+            "result": {
+                "loss": 0.02845766112496806,
+                "nse_vals": [
+                    0.9715423388750319,
+                    0.931857303307778,
+                    0.8577718061092539,
+                    0.755157767148951,
+                    0.6313124211242265,
+                    0.49228346542473855
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 2,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        2
+                    ],
+                    "ar_layer_size": [
+                        2
+                    ],
+                    "ar_n_lags": [
+                        2
+                    ],
+                    "ar_reg": [
+                        2
+                    ],
+                    "reg_layer_num": [
+                        2
+                    ],
+                    "reg_layer_size": [
+                        2
+                    ],
+                    "reg_n_lags": [
+                        2
+                    ],
+                    "reg_reg": [
+                        2
+                    ],
+                    "yearly_seasonality": [
+                        2
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        1.0
+                    ],
+                    "ar_layer_size": [
+                        59.0
+                    ],
+                    "ar_n_lags": [
+                        575.0
+                    ],
+                    "ar_reg": [
+                        3.5467890469165724
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        51.0
+                    ],
+                    "reg_n_lags": [
+                        468.0
+                    ],
+                    "reg_reg": [
+                        5.9458042455751565
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T11:34:07.565000",
+            "refresh_time": "2024-08-15T11:37:30.394000"
+        },
+        {
+            "state": 2,
+            "tid": 3,
+            "spec": null,
+            "result": {
+                "loss": 0.006618915618905374,
+                "nse_vals": [
+                    0.9933810843810946,
+                    0.9713171467139203,
+                    0.933212646253129,
+                    0.8873836774645354,
+                    0.8223888297256872,
+                    0.7405992897109557
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 3,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        3
+                    ],
+                    "ar_layer_size": [
+                        3
+                    ],
+                    "ar_n_lags": [
+                        3
+                    ],
+                    "ar_reg": [
+                        3
+                    ],
+                    "reg_layer_num": [
+                        3
+                    ],
+                    "reg_layer_size": [
+                        3
+                    ],
+                    "reg_n_lags": [
+                        3
+                    ],
+                    "reg_reg": [
+                        3
+                    ],
+                    "yearly_seasonality": [
+                        3
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        51.0
+                    ],
+                    "ar_n_lags": [
+                        686.0
+                    ],
+                    "ar_reg": [
+                        3.015136373583204
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        28.0
+                    ],
+                    "reg_n_lags": [
+                        516.0
+                    ],
+                    "reg_reg": [
+                        3.6396160200742886
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T11:37:30.395000",
+            "refresh_time": "2024-08-15T11:40:30.578000"
+        },
+        {
+            "state": 2,
+            "tid": 4,
+            "spec": null,
+            "result": {
+                "loss": 0.011803895417473176,
+                "nse_vals": [
+                    0.9881961045825268,
+                    0.9726591895544288,
+                    0.9485096151157371,
+                    0.9263226119837933,
+                    0.8860893236765893,
+                    0.834888623205232
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 4,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        4
+                    ],
+                    "ar_layer_size": [
+                        4
+                    ],
+                    "ar_n_lags": [
+                        4
+                    ],
+                    "ar_reg": [
+                        4
+                    ],
+                    "reg_layer_num": [
+                        4
+                    ],
+                    "reg_layer_size": [
+                        4
+                    ],
+                    "reg_n_lags": [
+                        4
+                    ],
+                    "reg_reg": [
+                        4
+                    ],
+                    "yearly_seasonality": [
+                        4
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        39.0
+                    ],
+                    "ar_n_lags": [
+                        290.0
+                    ],
+                    "ar_reg": [
+                        0.5303468100078705
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        24.0
+                    ],
+                    "reg_n_lags": [
+                        337.0
+                    ],
+                    "reg_reg": [
+                        4.251178311102306
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T11:40:30.586000",
+            "refresh_time": "2024-08-15T11:42:57.649000"
+        },
+        {
+            "state": 2,
+            "tid": 5,
+            "spec": null,
+            "result": {
+                "loss": 0.013728224509036657,
+                "nse_vals": [
+                    0.9862717754909633,
+                    0.9566556523690005,
+                    0.900603631943898,
+                    0.8241168932040983,
+                    0.7363076116229753,
+                    0.6305361484878407
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 5,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        5
+                    ],
+                    "ar_layer_size": [
+                        5
+                    ],
+                    "ar_n_lags": [
+                        5
+                    ],
+                    "ar_reg": [
+                        5
+                    ],
+                    "reg_layer_num": [
+                        5
+                    ],
+                    "reg_layer_size": [
+                        5
+                    ],
+                    "reg_n_lags": [
+                        5
+                    ],
+                    "reg_reg": [
+                        5
+                    ],
+                    "yearly_seasonality": [
+                        5
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        76.0
+                    ],
+                    "ar_n_lags": [
+                        589.0
+                    ],
+                    "ar_reg": [
+                        5.063647388434752
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        9.0
+                    ],
+                    "reg_n_lags": [
+                        398.0
+                    ],
+                    "reg_reg": [
+                        0.8166264127747243
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T11:42:57.651000",
+            "refresh_time": "2024-08-15T11:54:42.309000"
+        },
+        {
+            "state": 2,
+            "tid": 6,
+            "spec": null,
+            "result": {
+                "loss": 0.009080984158394867,
+                "nse_vals": [
+                    0.9909190158416051,
+                    0.9734691646136067,
+                    0.9501876394840372,
+                    0.926102368626303,
+                    0.8979730271905567,
+                    0.8545957590222661
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 6,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        6
+                    ],
+                    "ar_layer_size": [
+                        6
+                    ],
+                    "ar_n_lags": [
+                        6
+                    ],
+                    "ar_reg": [
+                        6
+                    ],
+                    "reg_layer_num": [
+                        6
+                    ],
+                    "reg_layer_size": [
+                        6
+                    ],
+                    "reg_n_lags": [
+                        6
+                    ],
+                    "reg_reg": [
+                        6
+                    ],
+                    "yearly_seasonality": [
+                        6
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        58.0
+                    ],
+                    "ar_n_lags": [
+                        466.0
+                    ],
+                    "ar_reg": [
+                        2.375409913729888
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        98.0
+                    ],
+                    "reg_n_lags": [
+                        244.0
+                    ],
+                    "reg_reg": [
+                        0.45542467108838924
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T11:54:42.309000",
+            "refresh_time": "2024-08-15T12:04:56.550000"
+        },
+        {
+            "state": 2,
+            "tid": 7,
+            "spec": null,
+            "result": {
+                "loss": 0.006098307417153115,
+                "nse_vals": [
+                    0.9939016925828469,
+                    0.978168498678019,
+                    0.9554409162609951,
+                    0.9307244581751606,
+                    0.8986064896508569,
+                    0.8425809265655932
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 7,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        7
+                    ],
+                    "ar_layer_size": [
+                        7
+                    ],
+                    "ar_n_lags": [
+                        7
+                    ],
+                    "ar_reg": [
+                        7
+                    ],
+                    "reg_layer_num": [
+                        7
+                    ],
+                    "reg_layer_size": [
+                        7
+                    ],
+                    "reg_n_lags": [
+                        7
+                    ],
+                    "reg_reg": [
+                        7
+                    ],
+                    "yearly_seasonality": [
+                        7
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        43.0
+                    ],
+                    "ar_n_lags": [
+                        708.0
+                    ],
+                    "ar_reg": [
+                        6.274436205238894
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        37.0
+                    ],
+                    "reg_n_lags": [
+                        221.0
+                    ],
+                    "reg_reg": [
+                        3.2664154536818533
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T12:04:56.550000",
+            "refresh_time": "2024-08-15T12:08:37.195000"
+        },
+        {
+            "state": 2,
+            "tid": 8,
+            "spec": null,
+            "result": {
+                "loss": 0.03063007276579799,
+                "nse_vals": [
+                    0.969369927234202,
+                    0.9472100314917291,
+                    0.916083174495411,
+                    0.8940830492313521,
+                    0.8403722384950744,
+                    0.7857388950206426
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 8,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        8
+                    ],
+                    "ar_layer_size": [
+                        8
+                    ],
+                    "ar_n_lags": [
+                        8
+                    ],
+                    "ar_reg": [
+                        8
+                    ],
+                    "reg_layer_num": [
+                        8
+                    ],
+                    "reg_layer_size": [
+                        8
+                    ],
+                    "reg_n_lags": [
+                        8
+                    ],
+                    "reg_reg": [
+                        8
+                    ],
+                    "yearly_seasonality": [
+                        8
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        53.0
+                    ],
+                    "ar_n_lags": [
+                        501.0
+                    ],
+                    "ar_reg": [
+                        4.144480065175127
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        80.0
+                    ],
+                    "reg_n_lags": [
+                        280.0
+                    ],
+                    "reg_reg": [
+                        2.3684575812356883
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T12:08:37.195000",
+            "refresh_time": "2024-08-15T12:21:20.709000"
+        },
+        {
+            "state": 2,
+            "tid": 9,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 9,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        9
+                    ],
+                    "ar_layer_size": [
+                        9
+                    ],
+                    "ar_n_lags": [
+                        9
+                    ],
+                    "ar_reg": [
+                        9
+                    ],
+                    "reg_layer_num": [
+                        9
+                    ],
+                    "reg_layer_size": [
+                        9
+                    ],
+                    "reg_n_lags": [
+                        9
+                    ],
+                    "reg_reg": [
+                        9
+                    ],
+                    "yearly_seasonality": [
+                        9
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        76.0
+                    ],
+                    "ar_n_lags": [
+                        197.0
+                    ],
+                    "ar_reg": [
+                        1.0580142468279672
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        80.0
+                    ],
+                    "reg_n_lags": [
+                        666.0
+                    ],
+                    "reg_reg": [
+                        2.216296164536155
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T12:21:20.713000",
+            "refresh_time": "2024-08-15T12:25:03.988000"
+        },
+        {
+            "state": 2,
+            "tid": 10,
+            "spec": null,
+            "result": {
+                "loss": 0.03753450989484808,
+                "nse_vals": [
+                    0.9624654901051519,
+                    0.9335666444132094,
+                    0.9005244546668173,
+                    0.8893558392094503,
+                    0.847933428710916,
+                    0.7872193201867946
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 10,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        10
+                    ],
+                    "ar_layer_size": [
+                        10
+                    ],
+                    "ar_n_lags": [
+                        10
+                    ],
+                    "ar_reg": [
+                        10
+                    ],
+                    "reg_layer_num": [
+                        10
+                    ],
+                    "reg_layer_size": [
+                        10
+                    ],
+                    "reg_n_lags": [
+                        10
+                    ],
+                    "reg_reg": [
+                        10
+                    ],
+                    "yearly_seasonality": [
+                        10
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        22.0
+                    ],
+                    "ar_n_lags": [
+                        628.0
+                    ],
+                    "ar_reg": [
+                        1.1511942585789892
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        65.0
+                    ],
+                    "reg_n_lags": [
+                        601.0
+                    ],
+                    "reg_reg": [
+                        1.5747405994203325
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T12:25:03.998000",
+            "refresh_time": "2024-08-15T12:42:11.985000"
+        },
+        {
+            "state": 2,
+            "tid": 11,
+            "spec": null,
+            "result": {
+                "loss": 0.016807858672834075,
+                "nse_vals": [
+                    0.9831921413271659,
+                    0.9593422495361803,
+                    0.9327947877088107,
+                    0.9113713028085902,
+                    0.8755954331017222,
+                    0.8254754900186866
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 11,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        11
+                    ],
+                    "ar_layer_size": [
+                        11
+                    ],
+                    "ar_n_lags": [
+                        11
+                    ],
+                    "ar_reg": [
+                        11
+                    ],
+                    "reg_layer_num": [
+                        11
+                    ],
+                    "reg_layer_size": [
+                        11
+                    ],
+                    "reg_n_lags": [
+                        11
+                    ],
+                    "reg_reg": [
+                        11
+                    ],
+                    "yearly_seasonality": [
+                        11
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        53.0
+                    ],
+                    "ar_n_lags": [
+                        482.0
+                    ],
+                    "ar_reg": [
+                        0.7429862026702999
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        83.0
+                    ],
+                    "reg_n_lags": [
+                        199.0
+                    ],
+                    "reg_reg": [
+                        3.3025287953842994
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T12:42:12.005000",
+            "refresh_time": "2024-08-15T12:56:32.274000"
+        },
+        {
+            "state": 2,
+            "tid": 12,
+            "spec": null,
+            "result": {
+                "loss": 37.47498364568033,
+                "nse_vals": [
+                    -36.47498364568033,
+                    -36.47498364568033,
+                    -36.47498364568033,
+                    -36.47498364568033,
+                    -36.47498364568033,
+                    -36.47498364568033
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 12,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        12
+                    ],
+                    "ar_layer_size": [
+                        12
+                    ],
+                    "ar_n_lags": [
+                        12
+                    ],
+                    "ar_reg": [
+                        12
+                    ],
+                    "reg_layer_num": [
+                        12
+                    ],
+                    "reg_layer_size": [
+                        12
+                    ],
+                    "reg_n_lags": [
+                        12
+                    ],
+                    "reg_reg": [
+                        12
+                    ],
+                    "yearly_seasonality": [
+                        12
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        72.0
+                    ],
+                    "ar_n_lags": [
+                        449.0
+                    ],
+                    "ar_reg": [
+                        1.027013232511712
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        20.0
+                    ],
+                    "reg_n_lags": [
+                        489.0
+                    ],
+                    "reg_reg": [
+                        1.0140507802085656
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T12:56:32.291000",
+            "refresh_time": "2024-08-15T13:09:54.192000"
+        },
+        {
+            "state": 2,
+            "tid": 13,
+            "spec": null,
+            "result": {
+                "loss": 0.03575279268987386,
+                "nse_vals": [
+                    0.9642472073101261,
+                    0.944486774462521,
+                    0.907214628365016,
+                    0.8800876016160916,
+                    0.8405750700525829,
+                    0.7621152689551038
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 13,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        13
+                    ],
+                    "ar_layer_size": [
+                        13
+                    ],
+                    "ar_n_lags": [
+                        13
+                    ],
+                    "ar_reg": [
+                        13
+                    ],
+                    "reg_layer_num": [
+                        13
+                    ],
+                    "reg_layer_size": [
+                        13
+                    ],
+                    "reg_n_lags": [
+                        13
+                    ],
+                    "reg_reg": [
+                        13
+                    ],
+                    "yearly_seasonality": [
+                        13
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        70.0
+                    ],
+                    "ar_n_lags": [
+                        629.0
+                    ],
+                    "ar_reg": [
+                        2.7531831272436285
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        46.0
+                    ],
+                    "reg_n_lags": [
+                        173.0
+                    ],
+                    "reg_reg": [
+                        1.2801516767716843
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T13:09:54.192000",
+            "refresh_time": "2024-08-15T13:22:28.195000"
+        },
+        {
+            "state": 2,
+            "tid": 14,
+            "spec": null,
+            "result": {
+                "loss": 0.015935729396528986,
+                "nse_vals": [
+                    0.984064270603471,
+                    0.9392289322099604,
+                    0.8697779502624376,
+                    0.7603532034017726,
+                    0.595138231970971,
+                    0.43594048925983964
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 14,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        14
+                    ],
+                    "ar_layer_size": [
+                        14
+                    ],
+                    "ar_n_lags": [
+                        14
+                    ],
+                    "ar_reg": [
+                        14
+                    ],
+                    "reg_layer_num": [
+                        14
+                    ],
+                    "reg_layer_size": [
+                        14
+                    ],
+                    "reg_n_lags": [
+                        14
+                    ],
+                    "reg_reg": [
+                        14
+                    ],
+                    "yearly_seasonality": [
+                        14
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        1.0
+                    ],
+                    "ar_layer_size": [
+                        14.0
+                    ],
+                    "ar_n_lags": [
+                        356.0
+                    ],
+                    "ar_reg": [
+                        7.266226442028503
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        3.0
+                    ],
+                    "reg_n_lags": [
+                        277.0
+                    ],
+                    "reg_reg": [
+                        0.4062387103414063
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T13:22:28.197000",
+            "refresh_time": "2024-08-15T13:29:58.845000"
+        },
+        {
+            "state": 2,
+            "tid": 15,
+            "spec": null,
+            "result": {
+                "loss": 0.03462104912305042,
+                "nse_vals": [
+                    0.9653789508769496,
+                    0.9506296553910627,
+                    0.921552982363075,
+                    0.9084843195466878,
+                    0.8841656407026881,
+                    0.8329971629454779
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 15,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        15
+                    ],
+                    "ar_layer_size": [
+                        15
+                    ],
+                    "ar_n_lags": [
+                        15
+                    ],
+                    "ar_reg": [
+                        15
+                    ],
+                    "reg_layer_num": [
+                        15
+                    ],
+                    "reg_layer_size": [
+                        15
+                    ],
+                    "reg_n_lags": [
+                        15
+                    ],
+                    "reg_reg": [
+                        15
+                    ],
+                    "yearly_seasonality": [
+                        15
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        1.0
+                    ],
+                    "ar_layer_size": [
+                        4.0
+                    ],
+                    "ar_n_lags": [
+                        450.0
+                    ],
+                    "ar_reg": [
+                        1.2743573324340498
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        75.0
+                    ],
+                    "reg_n_lags": [
+                        351.0
+                    ],
+                    "reg_reg": [
+                        5.735634750644159
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T13:29:58.849000",
+            "refresh_time": "2024-08-15T13:40:03.801000"
+        },
+        {
+            "state": 2,
+            "tid": 16,
+            "spec": null,
+            "result": {
+                "loss": 0.024407254101645126,
+                "nse_vals": [
+                    0.9755927458983549,
+                    0.9574667950432735,
+                    0.9361950175303714,
+                    0.9177629780548185,
+                    0.8915913596958103,
+                    0.8502688294939922
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 16,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        16
+                    ],
+                    "ar_layer_size": [
+                        16
+                    ],
+                    "ar_n_lags": [
+                        16
+                    ],
+                    "ar_reg": [
+                        16
+                    ],
+                    "reg_layer_num": [
+                        16
+                    ],
+                    "reg_layer_size": [
+                        16
+                    ],
+                    "reg_n_lags": [
+                        16
+                    ],
+                    "reg_reg": [
+                        16
+                    ],
+                    "yearly_seasonality": [
+                        16
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        41.0
+                    ],
+                    "ar_n_lags": [
+                        576.0
+                    ],
+                    "ar_reg": [
+                        2.676312261404466
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        91.0
+                    ],
+                    "reg_n_lags": [
+                        559.0
+                    ],
+                    "reg_reg": [
+                        3.3688833606137503
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T13:40:03.809000",
+            "refresh_time": "2024-08-15T13:56:13.953000"
+        },
+        {
+            "state": 2,
+            "tid": 17,
+            "spec": null,
+            "result": {
+                "loss": 0.04345801017159645,
+                "nse_vals": [
+                    0.9565419898284035,
+                    0.9285527542818082,
+                    0.886247607245964,
+                    0.8326608054403827,
+                    0.7892313380981527,
+                    0.709231455978528
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 17,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        17
+                    ],
+                    "ar_layer_size": [
+                        17
+                    ],
+                    "ar_n_lags": [
+                        17
+                    ],
+                    "ar_reg": [
+                        17
+                    ],
+                    "reg_layer_num": [
+                        17
+                    ],
+                    "reg_layer_size": [
+                        17
+                    ],
+                    "reg_n_lags": [
+                        17
+                    ],
+                    "reg_reg": [
+                        17
+                    ],
+                    "yearly_seasonality": [
+                        17
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        91.0
+                    ],
+                    "ar_n_lags": [
+                        616.0
+                    ],
+                    "ar_reg": [
+                        2.367128890347632
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        57.0
+                    ],
+                    "reg_n_lags": [
+                        667.0
+                    ],
+                    "reg_reg": [
+                        0.8528614153803569
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T13:56:13.964000",
+            "refresh_time": "2024-08-15T14:12:03.432000"
+        },
+        {
+            "state": 2,
+            "tid": 18,
+            "spec": null,
+            "result": {
+                "loss": 0.005048561274323071,
+                "nse_vals": [
+                    0.9949514387256769,
+                    0.9735877273348311,
+                    0.9244533220980728,
+                    0.8448261581956525,
+                    0.7164002835334022,
+                    0.5580292031738194
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 18,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        18
+                    ],
+                    "ar_layer_size": [
+                        18
+                    ],
+                    "ar_n_lags": [
+                        18
+                    ],
+                    "ar_reg": [
+                        18
+                    ],
+                    "reg_layer_num": [
+                        18
+                    ],
+                    "reg_layer_size": [
+                        18
+                    ],
+                    "reg_n_lags": [
+                        18
+                    ],
+                    "reg_reg": [
+                        18
+                    ],
+                    "yearly_seasonality": [
+                        18
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        42.0
+                    ],
+                    "ar_n_lags": [
+                        14.0
+                    ],
+                    "ar_reg": [
+                        4.308559838451259
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        10.0
+                    ],
+                    "reg_n_lags": [
+                        487.0
+                    ],
+                    "reg_reg": [
+                        1.7458767436392901
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:12:03.459000",
+            "refresh_time": "2024-08-15T14:15:01.175000"
+        },
+        {
+            "state": 2,
+            "tid": 19,
+            "spec": null,
+            "result": {
+                "loss": 0.00523571012367563,
+                "nse_vals": [
+                    0.9947642898763244,
+                    0.9734426518152027,
+                    0.9402083604849154,
+                    0.8871212123589322,
+                    0.8342172262486718,
+                    0.7580129796592203
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 19,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        19
+                    ],
+                    "ar_layer_size": [
+                        19
+                    ],
+                    "ar_n_lags": [
+                        19
+                    ],
+                    "ar_reg": [
+                        19
+                    ],
+                    "reg_layer_num": [
+                        19
+                    ],
+                    "reg_layer_size": [
+                        19
+                    ],
+                    "reg_n_lags": [
+                        19
+                    ],
+                    "reg_reg": [
+                        19
+                    ],
+                    "yearly_seasonality": [
+                        19
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        94.0
+                    ],
+                    "ar_n_lags": [
+                        21.0
+                    ],
+                    "ar_reg": [
+                        2.305089658039396
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        78.0
+                    ],
+                    "reg_n_lags": [
+                        2.0
+                    ],
+                    "reg_reg": [
+                        0.4493639774056997
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:15:01.181000",
+            "refresh_time": "2024-08-15T14:17:56.960000"
+        },
+        {
+            "state": 2,
+            "tid": 20,
+            "spec": null,
+            "result": {
+                "loss": 0.0034707192505448736,
+                "nse_vals": [
+                    0.9965292807494551,
+                    0.9862341977310576,
+                    0.9682963937357477,
+                    0.9483628580055983,
+                    0.9226510011418221,
+                    0.8801419510554461
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 20,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        20
+                    ],
+                    "ar_layer_size": [
+                        20
+                    ],
+                    "ar_n_lags": [
+                        20
+                    ],
+                    "ar_reg": [
+                        20
+                    ],
+                    "reg_layer_num": [
+                        20
+                    ],
+                    "reg_layer_size": [
+                        20
+                    ],
+                    "reg_n_lags": [
+                        20
+                    ],
+                    "reg_reg": [
+                        20
+                    ],
+                    "yearly_seasonality": [
+                        20
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        27.0
+                    ],
+                    "ar_n_lags": [
+                        5.0
+                    ],
+                    "ar_reg": [
+                        1.7229492793405146
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        69.0
+                    ],
+                    "reg_n_lags": [
+                        35.0
+                    ],
+                    "reg_reg": [
+                        0.5521539833588949
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:17:56.981000",
+            "refresh_time": "2024-08-15T14:20:50.471000"
+        },
+        {
+            "state": 2,
+            "tid": 21,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 21,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        21
+                    ],
+                    "ar_layer_size": [
+                        21
+                    ],
+                    "ar_n_lags": [
+                        21
+                    ],
+                    "ar_reg": [
+                        21
+                    ],
+                    "reg_layer_num": [
+                        21
+                    ],
+                    "reg_layer_size": [
+                        21
+                    ],
+                    "reg_n_lags": [
+                        21
+                    ],
+                    "reg_reg": [
+                        21
+                    ],
+                    "yearly_seasonality": [
+                        21
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        28.0
+                    ],
+                    "ar_n_lags": [
+                        6.0
+                    ],
+                    "ar_reg": [
+                        1.70415133375036
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        64.0
+                    ],
+                    "reg_n_lags": [
+                        9.0
+                    ],
+                    "reg_reg": [
+                        0.6041688074210279
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:20:50.491000",
+            "refresh_time": "2024-08-15T14:23:27.318000"
+        },
+        {
+            "state": 2,
+            "tid": 22,
+            "spec": null,
+            "result": {
+                "loss": 0.00899135652938432,
+                "nse_vals": [
+                    0.9910086434706157,
+                    0.9775455874272819,
+                    0.9585975370185665,
+                    0.9382274792471963,
+                    0.9032399347428013,
+                    0.836054628858134
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 22,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        22
+                    ],
+                    "ar_layer_size": [
+                        22
+                    ],
+                    "ar_n_lags": [
+                        22
+                    ],
+                    "ar_reg": [
+                        22
+                    ],
+                    "reg_layer_num": [
+                        22
+                    ],
+                    "reg_layer_size": [
+                        22
+                    ],
+                    "reg_n_lags": [
+                        22
+                    ],
+                    "reg_reg": [
+                        22
+                    ],
+                    "yearly_seasonality": [
+                        22
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        30.0
+                    ],
+                    "ar_n_lags": [
+                        124.0
+                    ],
+                    "ar_reg": [
+                        1.6021929404495665
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        12.0
+                    ],
+                    "reg_n_lags": [
+                        116.0
+                    ],
+                    "reg_reg": [
+                        1.903291199354407
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:23:27.343000",
+            "refresh_time": "2024-08-15T14:26:19.033000"
+        },
+        {
+            "state": 2,
+            "tid": 23,
+            "spec": null,
+            "result": {
+                "loss": 0.4431807255322533,
+                "nse_vals": [
+                    0.5568192744677467,
+                    0.5850541545553791,
+                    0.5899822031093624,
+                    0.6081873483852354,
+                    0.5723878572443624,
+                    0.5363553811488169
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 23,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        23
+                    ],
+                    "ar_layer_size": [
+                        23
+                    ],
+                    "ar_n_lags": [
+                        23
+                    ],
+                    "ar_reg": [
+                        23
+                    ],
+                    "reg_layer_num": [
+                        23
+                    ],
+                    "reg_layer_size": [
+                        23
+                    ],
+                    "reg_n_lags": [
+                        23
+                    ],
+                    "reg_reg": [
+                        23
+                    ],
+                    "yearly_seasonality": [
+                        23
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        5.0
+                    ],
+                    "ar_n_lags": [
+                        90.0
+                    ],
+                    "ar_reg": [
+                        0.4520150070900558
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        39.0
+                    ],
+                    "reg_n_lags": [
+                        89.0
+                    ],
+                    "reg_reg": [
+                        0.6099151302937654
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:26:19.044000",
+            "refresh_time": "2024-08-15T14:28:30.399000"
+        },
+        {
+            "state": 2,
+            "tid": 24,
+            "spec": null,
+            "result": {
+                "loss": 0.016951558946856626,
+                "nse_vals": [
+                    0.9830484410531434,
+                    0.9630227363359393,
+                    0.934694362818253,
+                    0.9101763170769396,
+                    0.8795442262227735,
+                    0.8340092596787219
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 24,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        24
+                    ],
+                    "ar_layer_size": [
+                        24
+                    ],
+                    "ar_n_lags": [
+                        24
+                    ],
+                    "ar_reg": [
+                        24
+                    ],
+                    "reg_layer_num": [
+                        24
+                    ],
+                    "reg_layer_size": [
+                        24
+                    ],
+                    "reg_n_lags": [
+                        24
+                    ],
+                    "reg_reg": [
+                        24
+                    ],
+                    "yearly_seasonality": [
+                        24
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        22.0
+                    ],
+                    "ar_n_lags": [
+                        199.0
+                    ],
+                    "ar_reg": [
+                        5.325423937406325
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        64.0
+                    ],
+                    "reg_n_lags": [
+                        413.0
+                    ],
+                    "reg_reg": [
+                        1.3219016509100014
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:28:30.413000",
+            "refresh_time": "2024-08-15T14:31:30.264000"
+        },
+        {
+            "state": 2,
+            "tid": 25,
+            "spec": null,
+            "result": {
+                "loss": 0.006926223795325259,
+                "nse_vals": [
+                    0.9930737762046747,
+                    0.9759342342547284,
+                    0.9489440470460122,
+                    0.9204622402321895,
+                    0.888872949503649,
+                    0.8441490523690767
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 25,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        25
+                    ],
+                    "ar_layer_size": [
+                        25
+                    ],
+                    "ar_n_lags": [
+                        25
+                    ],
+                    "ar_reg": [
+                        25
+                    ],
+                    "reg_layer_num": [
+                        25
+                    ],
+                    "reg_layer_size": [
+                        25
+                    ],
+                    "reg_n_lags": [
+                        25
+                    ],
+                    "reg_reg": [
+                        25
+                    ],
+                    "yearly_seasonality": [
+                        25
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        13.0
+                    ],
+                    "ar_n_lags": [
+                        71.0
+                    ],
+                    "ar_reg": [
+                        0.7356757070636827
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        71.0
+                    ],
+                    "reg_n_lags": [
+                        438.0
+                    ],
+                    "reg_reg": [
+                        2.2462110186379793
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:31:30.284000",
+            "refresh_time": "2024-08-15T14:34:34.441000"
+        },
+        {
+            "state": 2,
+            "tid": 26,
+            "spec": null,
+            "result": {
+                "loss": 0.026218414434323933,
+                "nse_vals": [
+                    0.9737815855656761,
+                    0.9369114699645015,
+                    0.8978100498752616,
+                    0.8374778271392682,
+                    0.772357473438902,
+                    0.695200965080319
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 26,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        26
+                    ],
+                    "ar_layer_size": [
+                        26
+                    ],
+                    "ar_n_lags": [
+                        26
+                    ],
+                    "ar_reg": [
+                        26
+                    ],
+                    "reg_layer_num": [
+                        26
+                    ],
+                    "reg_layer_size": [
+                        26
+                    ],
+                    "reg_n_lags": [
+                        26
+                    ],
+                    "reg_reg": [
+                        26
+                    ],
+                    "yearly_seasonality": [
+                        26
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        37.0
+                    ],
+                    "ar_n_lags": [
+                        180.0
+                    ],
+                    "ar_reg": [
+                        1.7597084792744941
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        56.0
+                    ],
+                    "reg_n_lags": [
+                        561.0
+                    ],
+                    "reg_reg": [
+                        0.5897949132896269
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:34:34.461000",
+            "refresh_time": "2024-08-15T14:40:58.798000"
+        },
+        {
+            "state": 2,
+            "tid": 27,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 27,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        27
+                    ],
+                    "ar_layer_size": [
+                        27
+                    ],
+                    "ar_n_lags": [
+                        27
+                    ],
+                    "ar_reg": [
+                        27
+                    ],
+                    "reg_layer_num": [
+                        27
+                    ],
+                    "reg_layer_size": [
+                        27
+                    ],
+                    "reg_n_lags": [
+                        27
+                    ],
+                    "reg_reg": [
+                        27
+                    ],
+                    "yearly_seasonality": [
+                        27
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        15.0
+                    ],
+                    "ar_n_lags": [
+                        300.0
+                    ],
+                    "ar_reg": [
+                        0.7944583846231713
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        89.0
+                    ],
+                    "reg_n_lags": [
+                        54.0
+                    ],
+                    "reg_reg": [
+                        1.702450018739224
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:40:58.909000",
+            "refresh_time": "2024-08-15T14:44:49.456000"
+        },
+        {
+            "state": 2,
+            "tid": 28,
+            "spec": null,
+            "result": {
+                "loss": 0.008771479792982984,
+                "nse_vals": [
+                    0.991228520207017,
+                    0.9687977632813516,
+                    0.9430402262138929,
+                    0.9089345784934978,
+                    0.8602199635151868,
+                    0.7944171487816714
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 28,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        28
+                    ],
+                    "ar_layer_size": [
+                        28
+                    ],
+                    "ar_n_lags": [
+                        28
+                    ],
+                    "ar_reg": [
+                        28
+                    ],
+                    "reg_layer_num": [
+                        28
+                    ],
+                    "reg_layer_size": [
+                        28
+                    ],
+                    "reg_n_lags": [
+                        28
+                    ],
+                    "reg_reg": [
+                        28
+                    ],
+                    "yearly_seasonality": [
+                        28
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        31.0
+                    ],
+                    "ar_n_lags": [
+                        1.0
+                    ],
+                    "ar_reg": [
+                        4.73549645879634
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        45.0
+                    ],
+                    "reg_n_lags": [
+                        325.0
+                    ],
+                    "reg_reg": [
+                        1.0567567884656617
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:44:49.476000",
+            "refresh_time": "2024-08-15T14:47:33.589000"
+        },
+        {
+            "state": 2,
+            "tid": 29,
+            "spec": null,
+            "result": {
+                "loss": 0.005253097900607018,
+                "nse_vals": [
+                    0.994746902099393,
+                    0.9801797139202875,
+                    0.9619987755362298,
+                    0.937628561586709,
+                    0.9098461812450563,
+                    0.8528111944941655
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 29,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        29
+                    ],
+                    "ar_layer_size": [
+                        29
+                    ],
+                    "ar_n_lags": [
+                        29
+                    ],
+                    "ar_reg": [
+                        29
+                    ],
+                    "reg_layer_num": [
+                        29
+                    ],
+                    "reg_layer_size": [
+                        29
+                    ],
+                    "reg_n_lags": [
+                        29
+                    ],
+                    "reg_reg": [
+                        29
+                    ],
+                    "yearly_seasonality": [
+                        29
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        46.0
+                    ],
+                    "ar_n_lags": [
+                        51.0
+                    ],
+                    "ar_reg": [
+                        7.255451831023656
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        18.0
+                    ],
+                    "reg_n_lags": [
+                        396.0
+                    ],
+                    "reg_reg": [
+                        2.678059768728712
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:47:33.620000",
+            "refresh_time": "2024-08-15T14:51:53.796000"
+        },
+        {
+            "state": 2,
+            "tid": 30,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 30,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        30
+                    ],
+                    "ar_layer_size": [
+                        30
+                    ],
+                    "ar_n_lags": [
+                        30
+                    ],
+                    "ar_reg": [
+                        30
+                    ],
+                    "reg_layer_num": [
+                        30
+                    ],
+                    "reg_layer_size": [
+                        30
+                    ],
+                    "reg_n_lags": [
+                        30
+                    ],
+                    "reg_reg": [
+                        30
+                    ],
+                    "yearly_seasonality": [
+                        30
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        23.0
+                    ],
+                    "ar_n_lags": [
+                        138.0
+                    ],
+                    "ar_reg": [
+                        1.9216415899745036
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        2.0
+                    ],
+                    "reg_n_lags": [
+                        611.0
+                    ],
+                    "reg_reg": [
+                        1.0338457992369308
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:51:53.837000",
+            "refresh_time": "2024-08-15T14:55:05.913000"
+        },
+        {
+            "state": 2,
+            "tid": 31,
+            "spec": null,
+            "result": {
+                "loss": 35.903935204105444,
+                "nse_vals": [
+                    -34.903935204105444,
+                    -34.903935204105444,
+                    -34.903935204105444,
+                    -34.903935204105444,
+                    -34.903935204105444,
+                    -34.903935204105444
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 31,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        31
+                    ],
+                    "ar_layer_size": [
+                        31
+                    ],
+                    "ar_n_lags": [
+                        31
+                    ],
+                    "ar_reg": [
+                        31
+                    ],
+                    "reg_layer_num": [
+                        31
+                    ],
+                    "reg_layer_size": [
+                        31
+                    ],
+                    "reg_n_lags": [
+                        31
+                    ],
+                    "reg_reg": [
+                        31
+                    ],
+                    "yearly_seasonality": [
+                        31
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        84.0
+                    ],
+                    "ar_n_lags": [
+                        243.0
+                    ],
+                    "ar_reg": [
+                        3.786329367785137
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        32.0
+                    ],
+                    "reg_n_lags": [
+                        164.0
+                    ],
+                    "reg_reg": [
+                        4.871593194381278
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T14:55:05.933000",
+            "refresh_time": "2024-08-15T15:03:40.342000"
+        },
+        {
+            "state": 2,
+            "tid": 32,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 32,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        32
+                    ],
+                    "ar_layer_size": [
+                        32
+                    ],
+                    "ar_n_lags": [
+                        32
+                    ],
+                    "ar_reg": [
+                        32
+                    ],
+                    "reg_layer_num": [
+                        32
+                    ],
+                    "reg_layer_size": [
+                        32
+                    ],
+                    "reg_n_lags": [
+                        32
+                    ],
+                    "reg_reg": [
+                        32
+                    ],
+                    "yearly_seasonality": [
+                        32
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        65.0
+                    ],
+                    "ar_n_lags": [
+                        371.0
+                    ],
+                    "ar_reg": [
+                        3.2463002903591347
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        55.0
+                    ],
+                    "reg_n_lags": [
+                        519.0
+                    ],
+                    "reg_reg": [
+                        1.4642710207326377
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:03:40.372000",
+            "refresh_time": "2024-08-15T15:08:20.525000"
+        },
+        {
+            "state": 2,
+            "tid": 33,
+            "spec": null,
+            "result": {
+                "loss": 0.00847763801454382,
+                "nse_vals": [
+                    0.9915223619854562,
+                    0.9715307485350503,
+                    0.9471266117750164,
+                    0.92458773955138,
+                    0.8964428300584144,
+                    0.8512970192561712
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 33,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        33
+                    ],
+                    "ar_layer_size": [
+                        33
+                    ],
+                    "ar_n_lags": [
+                        33
+                    ],
+                    "ar_reg": [
+                        33
+                    ],
+                    "reg_layer_num": [
+                        33
+                    ],
+                    "reg_layer_size": [
+                        33
+                    ],
+                    "reg_n_lags": [
+                        33
+                    ],
+                    "reg_reg": [
+                        33
+                    ],
+                    "yearly_seasonality": [
+                        33
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        61.0
+                    ],
+                    "ar_n_lags": [
+                        123.0
+                    ],
+                    "ar_reg": [
+                        0.37156894801300855
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        71.0
+                    ],
+                    "reg_n_lags": [
+                        708.0
+                    ],
+                    "reg_reg": [
+                        2.7416281990545106
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:08:20.547000",
+            "refresh_time": "2024-08-15T15:11:38.340000"
+        },
+        {
+            "state": 2,
+            "tid": 34,
+            "spec": null,
+            "result": {
+                "loss": 29.797447641454852,
+                "nse_vals": [
+                    -28.797447641454852,
+                    -28.797447641454852,
+                    -28.797447641454852,
+                    -28.797447641454852,
+                    -28.797447641454852,
+                    -28.797447641454852
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 34,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        34
+                    ],
+                    "ar_layer_size": [
+                        34
+                    ],
+                    "ar_n_lags": [
+                        34
+                    ],
+                    "ar_reg": [
+                        34
+                    ],
+                    "reg_layer_num": [
+                        34
+                    ],
+                    "reg_layer_size": [
+                        34
+                    ],
+                    "reg_n_lags": [
+                        34
+                    ],
+                    "reg_reg": [
+                        34
+                    ],
+                    "yearly_seasonality": [
+                        34
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        34.0
+                    ],
+                    "ar_n_lags": [
+                        39.0
+                    ],
+                    "ar_reg": [
+                        1.3789073337584625
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        88.0
+                    ],
+                    "reg_n_lags": [
+                        463.0
+                    ],
+                    "reg_reg": [
+                        0.36861130325210345
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:11:38.357000",
+            "refresh_time": "2024-08-15T15:15:44.977000"
+        },
+        {
+            "state": 2,
+            "tid": 35,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 35,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        35
+                    ],
+                    "ar_layer_size": [
+                        35
+                    ],
+                    "ar_n_lags": [
+                        35
+                    ],
+                    "ar_reg": [
+                        35
+                    ],
+                    "reg_layer_num": [
+                        35
+                    ],
+                    "reg_layer_size": [
+                        35
+                    ],
+                    "reg_n_lags": [
+                        35
+                    ],
+                    "reg_reg": [
+                        35
+                    ],
+                    "yearly_seasonality": [
+                        35
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        9.0
+                    ],
+                    "ar_n_lags": [
+                        275.0
+                    ],
+                    "ar_reg": [
+                        6.025261746157233
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        99.0
+                    ],
+                    "reg_n_lags": [
+                        712.0
+                    ],
+                    "reg_reg": [
+                        0.7215643174293163
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:15:45.015000",
+            "refresh_time": "2024-08-15T15:20:32.653000"
+        },
+        {
+            "state": 2,
+            "tid": 36,
+            "spec": null,
+            "result": {
+                "loss": 29.266902582109278,
+                "nse_vals": [
+                    -28.266902582109278,
+                    -28.266902582109278,
+                    -28.266902582109278,
+                    -28.266902582109278,
+                    -28.266902582109278,
+                    -28.266902582109278
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 36,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        36
+                    ],
+                    "ar_layer_size": [
+                        36
+                    ],
+                    "ar_n_lags": [
+                        36
+                    ],
+                    "ar_reg": [
+                        36
+                    ],
+                    "reg_layer_num": [
+                        36
+                    ],
+                    "reg_layer_size": [
+                        36
+                    ],
+                    "reg_n_lags": [
+                        36
+                    ],
+                    "reg_reg": [
+                        36
+                    ],
+                    "yearly_seasonality": [
+                        36
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        46.0
+                    ],
+                    "ar_n_lags": [
+                        399.0
+                    ],
+                    "ar_reg": [
+                        4.332135324032335
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        30.0
+                    ],
+                    "reg_n_lags": [
+                        308.0
+                    ],
+                    "reg_reg": [
+                        7.02495572500774
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:20:32.700000",
+            "refresh_time": "2024-08-15T15:33:18.100000"
+        },
+        {
+            "state": 2,
+            "tid": 37,
+            "spec": null,
+            "result": {
+                "loss": 0.03529166694369723,
+                "nse_vals": [
+                    0.9647083330563028,
+                    0.8956164060157029,
+                    0.7924568100493077,
+                    0.6632604915052086,
+                    0.5135355196689892,
+                    0.35343777223476636
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 37,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        37
+                    ],
+                    "ar_layer_size": [
+                        37
+                    ],
+                    "ar_n_lags": [
+                        37
+                    ],
+                    "ar_reg": [
+                        37
+                    ],
+                    "reg_layer_num": [
+                        37
+                    ],
+                    "reg_layer_size": [
+                        37
+                    ],
+                    "reg_n_lags": [
+                        37
+                    ],
+                    "reg_reg": [
+                        37
+                    ],
+                    "yearly_seasonality": [
+                        37
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        1.0
+                    ],
+                    "ar_layer_size": [
+                        26.0
+                    ],
+                    "ar_n_lags": [
+                        527.0
+                    ],
+                    "ar_reg": [
+                        0.9079017874057624
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        49.0
+                    ],
+                    "reg_n_lags": [
+                        530.0
+                    ],
+                    "reg_reg": [
+                        0.5062899011610236
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:33:18.135000",
+            "refresh_time": "2024-08-15T15:37:47.914000"
+        },
+        {
+            "state": 2,
+            "tid": 38,
+            "spec": null,
+            "result": {
+                "loss": 0.014701779495475797,
+                "nse_vals": [
+                    0.9852982205045242,
+                    0.9601909372337106,
+                    0.9372823982026444,
+                    0.8971285187219724,
+                    0.8591302926485985,
+                    0.7970957373934727
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 38,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        38
+                    ],
+                    "ar_layer_size": [
+                        38
+                    ],
+                    "ar_n_lags": [
+                        38
+                    ],
+                    "ar_reg": [
+                        38
+                    ],
+                    "reg_layer_num": [
+                        38
+                    ],
+                    "reg_layer_size": [
+                        38
+                    ],
+                    "reg_n_lags": [
+                        38
+                    ],
+                    "reg_reg": [
+                        38
+                    ],
+                    "yearly_seasonality": [
+                        38
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        48.0
+                    ],
+                    "ar_n_lags": [
+                        91.0
+                    ],
+                    "ar_reg": [
+                        0.5824690067032271
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        8.0
+                    ],
+                    "reg_n_lags": [
+                        384.0
+                    ],
+                    "reg_reg": [
+                        1.8825299978138172
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:37:47.942000",
+            "refresh_time": "2024-08-15T15:41:54.115000"
+        },
+        {
+            "state": 2,
+            "tid": 39,
+            "spec": null,
+            "result": {
+                "loss": 0.0068362571591337185,
+                "nse_vals": [
+                    0.9931637428408663,
+                    0.9758258200589792,
+                    0.9495081118149956,
+                    0.9212754621612166,
+                    0.886040430979748,
+                    0.8267271093724631
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 39,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        39
+                    ],
+                    "ar_layer_size": [
+                        39
+                    ],
+                    "ar_n_lags": [
+                        39
+                    ],
+                    "ar_reg": [
+                        39
+                    ],
+                    "reg_layer_num": [
+                        39
+                    ],
+                    "reg_layer_size": [
+                        39
+                    ],
+                    "reg_n_lags": [
+                        39
+                    ],
+                    "reg_reg": [
+                        39
+                    ],
+                    "yearly_seasonality": [
+                        39
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        36.0
+                    ],
+                    "ar_n_lags": [
+                        158.0
+                    ],
+                    "ar_reg": [
+                        3.3927549882400303
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        39.0
+                    ],
+                    "reg_n_lags": [
+                        457.0
+                    ],
+                    "reg_reg": [
+                        4.071135163929162
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:41:54.149000",
+            "refresh_time": "2024-08-15T15:44:38.475000"
+        },
+        {
+            "state": 2,
+            "tid": 40,
+            "spec": null,
+            "result": {
+                "loss": 35.21322295612249,
+                "nse_vals": [
+                    -34.21322295612249,
+                    -34.21322295612249,
+                    -34.21322295612249,
+                    -34.21322295612249,
+                    -34.21322295612249,
+                    -34.21322295612249
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 40,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        40
+                    ],
+                    "ar_layer_size": [
+                        40
+                    ],
+                    "ar_n_lags": [
+                        40
+                    ],
+                    "ar_reg": [
+                        40
+                    ],
+                    "reg_layer_num": [
+                        40
+                    ],
+                    "reg_layer_size": [
+                        40
+                    ],
+                    "reg_n_lags": [
+                        40
+                    ],
+                    "reg_reg": [
+                        40
+                    ],
+                    "yearly_seasonality": [
+                        40
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        58.0
+                    ],
+                    "ar_n_lags": [
+                        225.0
+                    ],
+                    "ar_reg": [
+                        2.1211868869387906
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        93.0
+                    ],
+                    "reg_n_lags": [
+                        611.0
+                    ],
+                    "reg_reg": [
+                        0.7005049496837883
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:44:38.505000",
+            "refresh_time": "2024-08-15T15:53:18.804000"
+        },
+        {
+            "state": 2,
+            "tid": 41,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 41,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        41
+                    ],
+                    "ar_layer_size": [
+                        41
+                    ],
+                    "ar_n_lags": [
+                        41
+                    ],
+                    "ar_reg": [
+                        41
+                    ],
+                    "reg_layer_num": [
+                        41
+                    ],
+                    "reg_layer_size": [
+                        41
+                    ],
+                    "reg_n_lags": [
+                        41
+                    ],
+                    "reg_reg": [
+                        41
+                    ],
+                    "yearly_seasonality": [
+                        41
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        3.0
+                    ],
+                    "ar_layer_size": [
+                        20.0
+                    ],
+                    "ar_n_lags": [
+                        318.0
+                    ],
+                    "ar_reg": [
+                        1.5265413443097526
+                    ],
+                    "reg_layer_num": [
+                        1.0
+                    ],
+                    "reg_layer_size": [
+                        22.0
+                    ],
+                    "reg_n_lags": [
+                        263.0
+                    ],
+                    "reg_reg": [
+                        0.8663815355925412
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:53:18.834000",
+            "refresh_time": "2024-08-15T15:56:16.426000"
+        },
+        {
+            "state": 2,
+            "tid": 42,
+            "spec": null,
+            "result": {
+                "loss": 0.0073844910455485024,
+                "nse_vals": [
+                    0.9926155089544515,
+                    0.9747928520544179,
+                    0.9467505868255542,
+                    0.9270147259934262,
+                    0.887851473429304,
+                    0.8210869666911769
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 42,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        42
+                    ],
+                    "ar_layer_size": [
+                        42
+                    ],
+                    "ar_n_lags": [
+                        42
+                    ],
+                    "ar_reg": [
+                        42
+                    ],
+                    "reg_layer_num": [
+                        42
+                    ],
+                    "reg_layer_size": [
+                        42
+                    ],
+                    "reg_n_lags": [
+                        42
+                    ],
+                    "reg_reg": [
+                        42
+                    ],
+                    "yearly_seasonality": [
+                        42
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        2.0
+                    ],
+                    "ar_layer_size": [
+                        51.0
+                    ],
+                    "ar_n_lags": [
+                        254.0
+                    ],
+                    "ar_reg": [
+                        2.858445667949408
+                    ],
+                    "reg_layer_num": [
+                        2.0
+                    ],
+                    "reg_layer_size": [
+                        16.0
+                    ],
+                    "reg_n_lags": [
+                        226.0
+                    ],
+                    "reg_reg": [
+                        1.1595063181301906
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T15:56:16.444000",
+            "refresh_time": "2024-08-15T16:04:02.926000"
+        },
+        {
+            "state": 2,
+            "tid": 43,
+            "spec": null,
+            "result": {
+                "loss": 0.00367348096929232,
+                "nse_vals": [
+                    0.9963265190307077,
+                    0.9829583599667964,
+                    0.9616151835343815,
+                    0.9379656403962932,
+                    0.9049894568991105,
+                    0.8493278365900883
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 43,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        43
+                    ],
+                    "ar_layer_size": [
+                        43
+                    ],
+                    "ar_n_lags": [
+                        43
+                    ],
+                    "ar_reg": [
+                        43
+                    ],
+                    "reg_layer_num": [
+                        43
+                    ],
+                    "reg_layer_size": [
+                        43
+                    ],
+                    "reg_n_lags": [
+                        43
+                    ],
+                    "reg_reg": [
+                        43
+                    ],
+                    "yearly_seasonality": [
+                        43
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        42.0
+                    ],
+                    "ar_n_lags": [
+                        2.0
+                    ],
+                    "ar_reg": [
+                        5.76433402671286
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        27.0
+                    ],
+                    "reg_n_lags": [
+                        36.0
+                    ],
+                    "reg_reg": [
+                        2.700861867745274
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T16:04:02.975000",
+            "refresh_time": "2024-08-15T16:06:51.010000"
+        },
+        {
+            "state": 2,
+            "tid": 44,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 44,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        44
+                    ],
+                    "ar_layer_size": [
+                        44
+                    ],
+                    "ar_n_lags": [
+                        44
+                    ],
+                    "ar_reg": [
+                        44
+                    ],
+                    "reg_layer_num": [
+                        44
+                    ],
+                    "reg_layer_size": [
+                        44
+                    ],
+                    "reg_n_lags": [
+                        44
+                    ],
+                    "reg_reg": [
+                        44
+                    ],
+                    "yearly_seasonality": [
+                        44
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        83.0
+                    ],
+                    "ar_n_lags": [
+                        413.0
+                    ],
+                    "ar_reg": [
+                        0.5638125070653497
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        27.0
+                    ],
+                    "reg_n_lags": [
+                        44.0
+                    ],
+                    "reg_reg": [
+                        5.002977631772923
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T16:06:51.033000",
+            "refresh_time": "2024-08-15T16:10:51.098000"
+        },
+        {
+            "state": 2,
+            "tid": 45,
+            "spec": null,
+            "result": {
+                "loss": 0.016386933074811094,
+                "nse_vals": [
+                    0.9836130669251889,
+                    0.9668606042021979,
+                    0.9499719531003348,
+                    0.9278894422339565,
+                    0.9012392738072273,
+                    0.8416142052804192
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 45,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        45
+                    ],
+                    "ar_layer_size": [
+                        45
+                    ],
+                    "ar_n_lags": [
+                        45
+                    ],
+                    "ar_reg": [
+                        45
+                    ],
+                    "reg_layer_num": [
+                        45
+                    ],
+                    "reg_layer_size": [
+                        45
+                    ],
+                    "reg_n_lags": [
+                        45
+                    ],
+                    "reg_reg": [
+                        45
+                    ],
+                    "yearly_seasonality": [
+                        45
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        1.0
+                    ],
+                    "ar_layer_size": [
+                        66.0
+                    ],
+                    "ar_n_lags": [
+                        95.0
+                    ],
+                    "ar_reg": [
+                        6.300729383109988
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        37.0
+                    ],
+                    "reg_n_lags": [
+                        113.0
+                    ],
+                    "reg_reg": [
+                        6.664223596689347
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T16:10:51.126000",
+            "refresh_time": "2024-08-15T16:15:26.359000"
+        },
+        {
+            "state": 2,
+            "tid": 46,
+            "spec": null,
+            "result": {
+                "loss": 0.011673541619299233,
+                "nse_vals": [
+                    0.9883264583807008,
+                    0.9710960984721986,
+                    0.9534565773666287,
+                    0.930365303678331,
+                    0.9043856829189266,
+                    0.8602461862703848
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 46,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        46
+                    ],
+                    "ar_layer_size": [
+                        46
+                    ],
+                    "ar_n_lags": [
+                        46
+                    ],
+                    "ar_reg": [
+                        46
+                    ],
+                    "reg_layer_num": [
+                        46
+                    ],
+                    "reg_layer_size": [
+                        46
+                    ],
+                    "reg_n_lags": [
+                        46
+                    ],
+                    "reg_reg": [
+                        46
+                    ],
+                    "yearly_seasonality": [
+                        46
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        55.0
+                    ],
+                    "ar_n_lags": [
+                        712.0
+                    ],
+                    "ar_reg": [
+                        0.3705773780622497
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        60.0
+                    ],
+                    "reg_n_lags": [
+                        155.0
+                    ],
+                    "reg_reg": [
+                        2.907584727379629
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T16:15:26.379000",
+            "refresh_time": "2024-08-15T16:33:12.005000"
+        },
+        {
+            "state": 2,
+            "tid": 47,
+            "spec": null,
+            "result": {
+                "loss": 1.0,
+                "nse_vals": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 47,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        47
+                    ],
+                    "ar_layer_size": [
+                        47
+                    ],
+                    "ar_n_lags": [
+                        47
+                    ],
+                    "ar_reg": [
+                        47
+                    ],
+                    "reg_layer_num": [
+                        47
+                    ],
+                    "reg_layer_size": [
+                        47
+                    ],
+                    "reg_n_lags": [
+                        47
+                    ],
+                    "reg_reg": [
+                        47
+                    ],
+                    "yearly_seasonality": [
+                        47
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        17.0
+                    ],
+                    "ar_n_lags": [
+                        325.0
+                    ],
+                    "ar_reg": [
+                        5.735682158715888
+                    ],
+                    "reg_layer_num": [
+                        3.0
+                    ],
+                    "reg_layer_size": [
+                        70.0
+                    ],
+                    "reg_n_lags": [
+                        54.0
+                    ],
+                    "reg_reg": [
+                        3.665090100665147
+                    ],
+                    "yearly_seasonality": [
+                        1
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T16:33:12.089000",
+            "refresh_time": "2024-08-15T16:36:15.138000"
+        },
+        {
+            "state": 2,
+            "tid": 48,
+            "spec": null,
+            "result": {
+                "loss": 0.36310206746222984,
+                "nse_vals": [
+                    0.6368979325377702,
+                    0.6563308378090131,
+                    0.6759903225523912,
+                    0.6864564632139942,
+                    0.671250116714671,
+                    0.5991208350556506
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 48,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        48
+                    ],
+                    "ar_layer_size": [
+                        48
+                    ],
+                    "ar_n_lags": [
+                        48
+                    ],
+                    "ar_reg": [
+                        48
+                    ],
+                    "reg_layer_num": [
+                        48
+                    ],
+                    "reg_layer_size": [
+                        48
+                    ],
+                    "reg_n_lags": [
+                        48
+                    ],
+                    "reg_reg": [
+                        48
+                    ],
+                    "yearly_seasonality": [
+                        48
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        1.0
+                    ],
+                    "ar_n_lags": [
+                        58.0
+                    ],
+                    "ar_reg": [
+                        1.2225349615979273
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        45.0
+                    ],
+                    "reg_n_lags": [
+                        25.0
+                    ],
+                    "reg_reg": [
+                        2.077496867247185
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T16:36:15.160000",
+            "refresh_time": "2024-08-15T16:39:28.461000"
+        },
+        {
+            "state": 2,
+            "tid": 49,
+            "spec": null,
+            "result": {
+                "loss": 20.406761038404866,
+                "nse_vals": [
+                    -19.406761038404866,
+                    -19.406761038404866,
+                    -19.406761038404866,
+                    -19.406761038404866,
+                    -19.406761038404866,
+                    -19.406761038404866
+                ],
+                "status": "ok"
+            },
+            "misc": {
+                "tid": 49,
+                "cmd": [
+                    "domain_attachment",
+                    "FMinIter_Domain"
+                ],
+                "workdir": null,
+                "idxs": {
+                    "ar_layer_num": [
+                        49
+                    ],
+                    "ar_layer_size": [
+                        49
+                    ],
+                    "ar_n_lags": [
+                        49
+                    ],
+                    "ar_reg": [
+                        49
+                    ],
+                    "reg_layer_num": [
+                        49
+                    ],
+                    "reg_layer_size": [
+                        49
+                    ],
+                    "reg_n_lags": [
+                        49
+                    ],
+                    "reg_reg": [
+                        49
+                    ],
+                    "yearly_seasonality": [
+                        49
+                    ]
+                },
+                "vals": {
+                    "ar_layer_num": [
+                        4.0
+                    ],
+                    "ar_layer_size": [
+                        34.0
+                    ],
+                    "ar_n_lags": [
+                        210.0
+                    ],
+                    "ar_reg": [
+                        0.45612904966083434
+                    ],
+                    "reg_layer_num": [
+                        4.0
+                    ],
+                    "reg_layer_size": [
+                        84.0
+                    ],
+                    "reg_n_lags": [
+                        195.0
+                    ],
+                    "reg_reg": [
+                        2.444856774021569
+                    ],
+                    "yearly_seasonality": [
+                        0
+                    ]
+                }
+            },
+            "exp_key": null,
+            "owner": null,
+            "version": 0,
+            "book_time": "2024-08-15T16:39:28.484000",
+            "refresh_time": "2024-08-15T16:47:56.425000"
+        }
+    ]
+}
