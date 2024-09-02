@@ -1,7 +1,7 @@
 # NeuralProphet Flow Modelling
 
 
-This repository contains jupyter notebooks (_.ipynb_ files) for exploratory data analysis and ARIMA, ARDL and NeuralProphet modelling, as well as a script for optimisation of the NeuralProphet model. All require flow and rainfall datasets, accessible at https://environment.data.gov.uk/hydrology/explore and freely available under an Open Government Licence. (The files are too large to store in this repository.)
+This repository contains jupyter notebooks (_.ipynb_ files) for exploratory data analysis and ARIMA, ARDL and NeuralProphet modelling, as well as a python script for optimisation of the NeuralProphet model. All require flow and rainfall datasets, accessible at https://environment.data.gov.uk/hydrology/explore and freely available under an Open Government Licence. (The files are too large to store in this repository.)
 
 The scripts are designed to run with any flow dataset (specified in each script) and any rainfall datasets (specified in _definitions.py_)
 
