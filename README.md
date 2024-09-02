@@ -14,7 +14,7 @@ These datasets are stored in _.csv_ format, eg. `Adelphi-Weir-Upstream-flow-15mi
 ### 1. Exploratory Data Analysis
 Exploratory data analysis on the flow and rainfall datasets is found in `eda.ipynb`.
 
-Uses `eda_functions.py` which contains functions for loading the data and generating graphs, and `definitions.py` which contains definitions for rain gauge locations and data quality codes'
+Uses `eda_functions.py` which contains functions for loading the data and generating graphs, and `definitions.py` which contains definitions for rain gauge locations and data quality codes.
 
 ### 2. ARIMA and ARDL Models
 ARIMA and ARDL models are found in `arima_ardl.ipynb`.
