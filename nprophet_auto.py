@@ -16,7 +16,7 @@ import json
 from sklearn.metrics import r2_score, mean_squared_error
 from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
 
-from np_functions import load_data, format_input, setup_model
+from model_functions import load_data, format_input, setup_model
 
 
 ## SET UP TRAINING AND TEST DATASETS
