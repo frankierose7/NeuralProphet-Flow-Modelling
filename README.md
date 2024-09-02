@@ -28,4 +28,4 @@ The optimised parameters for each horizon (1 hour, 3 hours and 6 hours) can be l
 Uses _model_functions.py_ to load data and set up the model.
 
 ### 4. Optimisation
-The _nprophet_auto.py_ script optimises the NeuralProphet model with the _hyperopt_ package. By default runs 75 iterations which takes around 5 hours. The result _.json_ files given are results of previous optimisations with this script.
+The _nprophet_auto.py_ script optimises the NeuralProphet model with the _hyperopt_ package. By default, it runs 75 iterations which takes around 5 hours. The result _.json_ files given are results of previous optimisations with this script.
