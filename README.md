@@ -1,5 +1,6 @@
-# NeuralProphet Flow Modelling
+# River Flow Modelling with NeuralProphet
 
+This project applies the NeuralProphet time series forecasting model (https://neuralprophet.com/) to a set of flow and rainfall data for the River Irwell catchment, with exploratory data analysis and simpler statistical models for comparison.
 
 This repository contains jupyter notebooks (_.ipynb_ files) for exploratory data analysis and ARIMA, ARDL and NeuralProphet modelling, as well as a python script for optimisation of the NeuralProphet model. All require flow and rainfall datasets, accessible at https://environment.data.gov.uk/hydrology/explore and freely available under an Open Government Licence. (The files are too large to store in this repository.)
 
